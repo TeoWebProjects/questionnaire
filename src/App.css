@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.quest {
+  margin-top: 1rem;
+}
+
+.answers {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}

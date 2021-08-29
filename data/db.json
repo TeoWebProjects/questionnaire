@@ -1,0 +1,528 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "lastname": "papadoloulos",
+      "email": "admin@example.com",
+      "age": "25",
+      "password": "123123",
+      "admin": "true",
+      "answers": [
+        {
+          "question": "Πρβτη ερωτηση",
+          "answer": "1 απαντηση"
+        },
+        {
+          "question": "Δευτερη ερωτηση",
+          "answer": "3 απαντηση"
+        }
+      ]
+    },
+    {
+      "name": "marios",
+      "password": "456789",
+      "admin": "false",
+      "answers": [],
+      "id": 2
+    },
+    {
+      "name": "Giwrgos",
+      "password": "9999",
+      "admin": "false",
+      "answers": [],
+      "id": 3
+    },
+    {
+      "name": "Giwrgos222",
+      "password": "999922",
+      "admin": "false",
+      "answers": [],
+      "id": 4
+    },
+    {
+      "name": "Θοδωρής",
+      "lastname": "Μενεξές",
+      "email": "fakeEmail@example.com",
+      "age": "27",
+      "password": "2541025410",
+      "admin": "false",
+      "answers": [],
+      "id": 5
+    },
+    {
+      "name": "sssssss",
+      "lastname": "ssssssss",
+      "email": "dasdasdas@example.com",
+      "age": "22",
+      "password": "123123",
+      "admin": "false",
+      "answers": [],
+      "id": 6
+    }
+  ],
+  "quests": [
+    {
+      "id": 1,
+      "question": "Numbness or tingling",
+      "answers": [
+        {
+          "number": 1,
+          "answer": "0"
+        },
+        {
+          "number": 2,
+          "answer": "1"
+        },
+        {
+          "number": 3,
+          "answer": "2"
+        },
+        {
+          "number": 4,
+          "answer": "3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Feeling hot",
+      "answers": [
+        {
+          "number": 1,
+          "answer": "0"
+        },
+        {
+          "number": 2,
+          "answer": "1"
+        },
+        {
+          "number": 3,
+          "answer": "2"
+        },
+        {
+          "number": 4,
+          "answer": "3"
+        }
+      ]
+    },
+    {
+        "id": 3,
+        "question": "Wobbliness in legs",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Unable to relax",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Fear of worst happening",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Dizzy or lightheaded",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Heart pounding / racing",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Unsteady",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Terrified or afraid",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Nervous",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question": "Feeling of choking",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question": "Hands trembling",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question": "Shaky / unsteady",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question": "Fear of losing control",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question": "Difficulty in breathing",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question": "Fear of dying",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question": "Scared",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question": "Indigestion",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question": "Faint / lightheaded",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question": "Face flushed",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question": "Hot / cold sweats",
+        "answers": [
+          {
+            "number": 1,
+            "answer": "0"
+          },
+          {
+            "number": 2,
+            "answer": "1"
+          },
+          {
+            "number": 3,
+            "answer": "2"
+          },
+          {
+            "number": 4,
+            "answer": "3"
+          }
+        ]
+      }
+  ]
+}
